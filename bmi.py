@@ -3,7 +3,7 @@ import streamlit as st
 st.title(':red[Moses BMI calculator]')
 
 from PIL import Image
-bmi = Image.open("C:\\Users\\USER\\Downloads\\passport.jpg")
+bmi = Image.open("passport.jpg")
 st.image(bmi)
 
 st.markdown('What is a BMI')
